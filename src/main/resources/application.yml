@@ -44,7 +44,7 @@ spring:
     gateway:
       routes:
         - id: Order
-          uri: http://Order:8080
+          uri: http://jhoneyorder:8080
           predicates:
             - Path=/orders/**
         - id: HrSystem
