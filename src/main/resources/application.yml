@@ -48,15 +48,15 @@ spring:
           predicates:
             - Path=/orders/**
         - id: HrSystem
-          uri: http://HrSystem:8080
+          uri: http://jhoneyhrsystem:8080
           predicates:
             - Path=/hrSystems/**
         - id: Reservation
-          uri: http://Reservation:8080
+          uri: http://jhoneyreservation:8080
           predicates:
             - Path=/reservations/**
         - id: orderstatus
-          uri: http://orderstatus:8080
+          uri: http://jhoneyorderstatus:8080
           predicates:
             - Path=/orderStatuses/**
       globalcors:
